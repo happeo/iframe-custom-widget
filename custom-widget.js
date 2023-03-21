@@ -13,7 +13,7 @@ class IframeWidget extends HTMLElement {
 
     // you can change the width and height as necessary
     wrapper.innerHTML =
-      '<iframe height="600" width="800" src="https://www.youtube.com/embed/HbPItEgPBZc" title="My Iframe" />';
+      '<iframe height="600" width="800" src="enter-the-webpage-url-that-needs-to-be-iframed-within-these-quotes" title="My Iframe" />';
 
     // Create some CSS to apply to the shadow dom
     const style = document.createElement("style");
